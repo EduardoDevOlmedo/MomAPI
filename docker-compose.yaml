@@ -1,0 +1,8 @@
+services:
+  mamadb:
+    image: mongo:5.0.0
+    container_name: mama-database
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongo:/data/db

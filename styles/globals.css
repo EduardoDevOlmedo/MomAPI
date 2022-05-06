@@ -13,3 +13,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.subs {
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+@media (min-width: 0px){
+  .css-1uonx4-MuiTypography-root {
+    display: block !important;
+}
+}
+

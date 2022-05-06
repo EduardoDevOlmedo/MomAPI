@@ -75,5 +75,7 @@ const deletePhrase = async(req: NextApiRequest, res: NextApiResponse) => {
   }
   catch(err) {
     console.log(err)
+    return res.status(404).json("Han error has ocurred :" + error)
+
   }
 }
